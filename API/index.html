@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Elden Ring</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="page-header">
+            <div>
+                <label for="category">categoria:</label>
+                <select name="category" id="category" onchange="changeCategory()">
+                </select>
+            </div>
+            <div>
+                <label for="type">tipo:</label>
+                <select name="type" id="type">
+                </select>
+            </div>
+            <button onclick="showContent()">buscar</button>
+        </div>
+        <div class="page-contents" id="main">
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

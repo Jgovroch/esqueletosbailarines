@@ -1,0 +1,18 @@
+body {
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png");
+    color: rgb(249, 244, 244)
+    
+      
+      
+  }
+  .buscar {
+    background-color: #4CAF50; 
+    border: none;
+    color: rgb(194, 77, 77);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
